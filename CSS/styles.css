@@ -1,10 +1,12 @@
 <!DOCTYPE html>
+<html>
 <head>
 <style>
- h2 {
-            color: rgb(191, 0, 255);
-            font-family: "sans-serif;
-        }
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: center;
+}
 
 </style>
 
@@ -13,3 +15,4 @@
 
 
 </head
+</html>
