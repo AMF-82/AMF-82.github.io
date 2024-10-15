@@ -15,6 +15,7 @@ p {
 }
 
 #box {
+     font-size: 25px;
      text-align:center;
        background:#4c4c4c;
             width: 30%;
