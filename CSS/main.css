@@ -7,17 +7,15 @@ body {
         font-size: 45px;
      margin-left:50%;
 }
-
-#sidebar {
-     font-size: 25px;     
-       background:#373737;
-            width: 50%;
-            height: 100%;
-     margin-right:0;
-     margin-left:0;
-}
 .box {
 font-size: 25px;
      font-family: monospace;
             font-style: italic;
+      background:#373737;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
 }
