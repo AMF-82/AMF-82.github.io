@@ -17,5 +17,6 @@ p {
 }
 
 #box {
+        width: 20%;
             border: 2px dashed black;
 }
