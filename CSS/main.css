@@ -18,6 +18,5 @@ p {
 
 #box {
         border:5px ridge black;
-        margin-right: 10px;
-        margin-left: 10px;
+      width:70%;
 }
