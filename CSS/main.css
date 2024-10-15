@@ -13,7 +13,7 @@ p {
             font-style: italic;
 }
 
-.box {
+#box {
        background:#4c4c4c;
             width: 70%;
             height: 180px;
