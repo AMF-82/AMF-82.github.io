@@ -17,7 +17,7 @@ p {
 #box {
        background:#4c4c4c;
             width: 70%;
-            height: 180px;
+            height: 300px;
             overflow-y: auto;
             overflow-x: hidden;
 }
