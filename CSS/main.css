@@ -1,15 +1,14 @@
 body {
     background-color: #f23d45;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    height: 100vh;
-    margin: 0;
+  margin: 0;
+    padding: 0;
 }
 #title {
     font-family: monospace;
     font-style: bold;
         font-size: 45px;
+        text-align: center;
+    margin-top: 20px; 
 }
 
 .sidebar {
