@@ -14,5 +14,9 @@ p {
 }
 
 .box {
-    background:#737373;
+       background:#737373;
+            width: 70%;
+            height: 180px;
+            overflow-y: auto;
+            overflow-x: hidden;
 }
