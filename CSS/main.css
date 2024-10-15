@@ -17,6 +17,6 @@ p {
 }
 
 #box {
-        border:5px ridge black;
+        border:5px dashed black;
       width:70%;
 }
