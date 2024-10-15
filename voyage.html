@@ -5,53 +5,105 @@
         <meta charset="utf-8" />
         <link rel="stylesheet" href="CSS/voyage.css">
         <style>
-	h1{
-			font-family: "Courier New", Courier, monospace;
-		}
-	p{
-		font-family: "Courier New", Courier, monospace;
-	}        
+            body {
+                background-color: #ff5757;
+                margin: 0;
+                padding: 0;
+                text-align: center; /* This centers inline elements like text, images, etc. */
+            }
+
+            .content {
+                display: inline-block;
+                text-align: left; /* Ensures that text inside the container stays left-aligned */
+                max-width: 800px; /* You can adjust this width to suit your layout */
+            }
+
+            h1 {
+                font-family: "Courier New", Courier, monospace;
+            }
+
+            p, ul {
+                font-family: "Courier New", Courier, monospace;
+            }
+
+            img {
+                width: 570px;
+                height: auto; /* Keeps the aspect ratio of the images */
+            }
+
+            ul {
+                list-style-type: none; /* Remove bullets from the list */
+                padding: 0;
+            }
+
+            ul li {
+                padding-bottom: 10px; /* Adds some space between the list items */
+            }
+
+            .sidebar {
+                position: fixed;
+                left: 0;
+                top: 0;
+                height: 100%;
+                width: 160px;
+                background-color: #111;
+                padding-top: 20px;
+                text-align: center;
+            }
+
+            .sidebar a {
+                display: block;
+                color: #818181;
+                padding: 10px;
+                text-decoration: none;
+            }
+
+            .sidebar a:hover {
+                color: #f1f1f1;
+            }
         </style>
     </head>
-    <body style="background-color: #ff5757">
-            	<div class="sidebar">
-    <a href="index.html">Accueil</a><br>
-    <a href="poeme.html">Poème</a><br>
-    <a href="voyage.html">Voyage Parfait</a><br>
-    <a href="menu.html">Menu</a><br> 
-   </div>
-        <center>
-             <h1>Le voyage parfait</h1>
-        <p>
-    Le Japon est un pays situé dans l’Est de l’Asie, composé d’une grande île principale et <br>d’une multitude d’autres îles de différentes tailles. Cet archipel regroupe en effet plus de 6000 îles dont les quatre plus grandes <br>sont Hokkaidō, Honshū, Shikoku et Kyūshū. La majorité des îles sont montagneuses, voire volcanique. 
-        </p>
-        <p>Je verrais des...</p>
-        <ul>
-            <li>Montagnes</li>
-            <li>Fleur de cerisier</li>
+    <body>
+        <div class="sidebar">
+            <a href="index.html">Accueil</a>
+            <a href="poeme.html">Poème</a>
+            <a href="voyage.html">Voyage Parfait</a>
+            <a href="menu.html">Menu</a>
+        </div>
+        
+        <!-- The content container that centers everything -->
+        <div class="content">
+            <h1>Le voyage parfait</h1>
+            <p>
+                Le Japon est un pays situé dans l’Est de l’Asie, composé d’une grande île principale et <br>
+                d’une multitude d’autres îles de différentes tailles. Cet archipel regroupe en effet plus de 6000 îles dont les quatre plus grandes <br>
+                sont Hokkaidō, Honshū, Shikoku et Kyūshū. La majorité des îles sont montagneuses, voire volcaniques.
+            </p>
+
+            <p>Je verrais des...</p>
+            <ul>
+                <li>Montagnes</li>
+                <li>Fleur de cerisier</li>
+            </ul>
             <br />
-            <img
-                src="https://www.trafalgar.com/real-word/wp-content/uploads/sites/3/2018/01/Mount-Fuji-Japan-www.istockphoto.com_gb_photo_beautiful-cherry-blossoms-with-mount-fuji-japan-gm147914231-12967184-prasit_chansareekorn.jpg"
-                alt="Japanese Scenery"
-                width="570"
-            />
+            <img src="https://www.trafalgar.com/real-word/wp-content/uploads/sites/3/2018/01/Mount-Fuji-Japan-www.istockphoto.com_gb_photo_beautiful-cherry-blossoms-with-mount-fuji-japan-gm147914231-12967184-prasit_chansareekorn.jpg"
+                alt="Japanese Scenery" />
+
             <p>Et les animaux comme...</p>
-            <li>Panda Roux</li>
+            <ul>
+                <li>Panda Roux</li>
+            </ul>
             <br />
-            <img
-                src="https://mlyhahhwafqm.i.optimole.com/cb:5ksX~4cf46/w:auto/h:auto/q:75/f:best/ig:avif/https://interacnetwork.com/the-content/cream/wp-content/uploads/2021/11/image8.jpg"
-                alt="Red Panda"
-                width="570"
-            />
+            <img src="https://mlyhahhwafqm.i.optimole.com/cb:5ksX~4cf46/w:auto/h:auto/q:75/f:best/ig:avif/https://interacnetwork.com/the-content/cream/wp-content/uploads/2021/11/image8.jpg"
+                alt="Red Panda" />
+
             <p>Et mange de la nourriture comme...</p>
-            <li>Sushi</li>
+            <ul>
+                <li>Sushi</li>
+            </ul>
             <br />
-            <img
-                src="https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/00/a0000370/img/basic/a0000370_main.jpg"
-                alt="Sushi"
-                width="570"
-            />
-        </ul>
-            </center>
+            <img src="https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/00/a0000370/img/basic/a0000370_main.jpg"
+                alt="Sushi" />
+        </div>
     </body>
 </html>
