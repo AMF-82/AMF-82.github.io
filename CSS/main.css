@@ -18,7 +18,7 @@ p {
      text-align:center;
        background:#4c4c4c;
             width: 30%;
-            height: 800px;
+            height: 600px;
             overflow-y: auto;
             overflow-x: hidden;
 }
