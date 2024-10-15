@@ -16,6 +16,6 @@ p {
             font-style: italic;
 }
 
-#box {
+.box {
             border: 2px dashed black;
 }
