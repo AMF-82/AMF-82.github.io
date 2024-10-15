@@ -1,13 +1,16 @@
+body {
+
+    }
 h1 {
 color:blue;
     font-family: monospace;
     font-style: bold;
-        font-size: 24px;
+        font-size: 45px;
 }
 
 p {
         font-family: monospace;
-            font-size: 16px;
+            font-size: 25px;
             font-style: italic;
 }
 
