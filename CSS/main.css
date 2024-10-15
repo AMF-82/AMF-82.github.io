@@ -15,7 +15,7 @@ p {
             font-style: italic;
 }
 
-#box {
+.sidebar {
      font-size: 25px;
      text-align:center;
        background:#4c4c4c;
