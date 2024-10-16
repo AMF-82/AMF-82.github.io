@@ -1,55 +1,57 @@
 body {
     background-color: #ff5757;
-  margin: 0;
+    margin: 0;
     padding: 0;
 }
 #title {
     font-family: "Courier New", Courier, monospace;
-    font-style:bold;
-        font-size: 28px;
-        text-align: center;
-    margin-top: 20px; 
+    font-style: bold;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 20px;
 }
 
 p {
     font-family: "Courier New", Courier, monospace;
-    font-style:bold;
-        font-size: 18px;
-        text-align: center;
-    margin-top: 20px; 
+    font-style: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .sidebar {
     font-family: "Courier New", Courier, monospace;
-  height: 100%;
-  width: 250px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  padding-top: 20px;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
 }
 .sidebar a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
 }
 
 .sidebar a:hover {
-  color: #f1f1f1;
+    color: #f1f1f1;
 }
 #sidebar {
-  margin-left: 160px;
-  padding: 0px 10px;
+    margin-left: 160px;
+    padding: 0px 10px;
 }
 
 @media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
+    .sidebar {
+        padding-top: 15px;
+    }
+    .sidebar a {
+        font-size: 18px;
+    }
 }
-
-
